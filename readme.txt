@@ -10,15 +10,15 @@ MySQL
 
 # Quickstart Guide:
 
-** Borrower Register: **  
+**Borrower Register:**  
 In order to register a borrower so that they will be able to check out books, input all the information required by the fields given. A borrower with the same SSN cannot exist. A unique borrower id will be automatically created for each new borrower.
 
-** Book Search: **  
+**Book Search:**  
 Using the search field, search for a book, with any combination of ISBN, title, and/or Author(s). Search supports substring matching where the full text of a title, author name, etc. is not required and will return matches of the text in ISBN, title, and Author. For example, “william” returns author “William Jones”, author “Sam Williamson”, and title “Houses of Williamsburg, Virginia”). The availability of a book will be shown as a 1 for available or  0 for NOT available.
 
-** Book Checkout: **  
+**Book Checkout:**  
 Once a book has been found, it can be checked out by clicking on the checkout button and providing a borrower id in the pop-up. There will be a success message stating that the book was successfully checked out and the due date will always be set to 14 days from the checkout date.
-* Possible Error Messages: *  
+*Possible Error Messages:*  
 Book is already checked out – The selected book has already been checked out
 Borrower already has 3 books out – The borrower with the inputted borrower id cannot check out more than 3 books simultaneously
 Error, could not update database – There was a problem communicating with the database and the checkout was unsuccessful
