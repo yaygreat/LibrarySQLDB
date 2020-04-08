@@ -8,7 +8,7 @@ Java 8 EE
 Apache Tomcat Server
 MySQL
 
-<h1>Quickstart Guide:</h1>
+#Quickstart Guide:
 
 **Borrower Register:**  
 In order to register a borrower so that they will be able to check out books, input all the information required by the fields given. A borrower with the same SSN cannot exist. A unique borrower id will be automatically created for each new borrower.
