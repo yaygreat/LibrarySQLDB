@@ -1,3 +1,13 @@
+Book Library Webapp is composed of jsp's and java files.  
+SQL Script uses LOAD DATA INFILE to load the csv data directly into the database.  
+In order for this to work correctly, you must go to the my.ini file and set the priv var to ""  
+and set the .csv folders within uploads folder in mysql.  
+  
+Required downlaods:  
+Java 8 EE  
+Apache Tomcat Server  
+MySQL  
+
 # Quickstart Guide:
 
 **Borrower Register:**  
@@ -21,14 +31,3 @@ Enter a borrower id to search for the loans belonging to that borrower or leave 
 *Possible Error Messages:*  
 Error, could not update database – There was a problem communicating with the database and the payment was unsuccessful
 Borrower has not checked in this book – Payment cannot be received because book is still checked out
-
-
-Book Library Webapp is composed of jsp's and java files.
-SQL Script uses LOAD DATA INFILE to load the csv data directly into the database.
-In order for this to work correctly, you must go to the my.ini file and set the priv var to ""
-and set the .csv folders within uploads folder in mysql.
-
-Required downlaods:
-Java 8 EE
-Apache Tomcat Server
-MySQL
